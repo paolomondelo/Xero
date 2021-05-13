@@ -5,6 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cef9d388-d2d1-4b93-8355-42771e0269cb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/Xero.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/AccountingPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/BankAccountPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/AccountingStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/BankAccountStepDefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Xero.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/AccountingPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/BankAccountPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/StepDefinitions/AccountingStepDefs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/example/StepDefinitions/BankAccountStepDefs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/features/Xero.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/BaseClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/BaseClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/LoginPage.java" afterDir="false" />
@@ -14,7 +28,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ProfilePage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/RegistrationPage.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/GoogleStepDefs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/LoginStepDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/LoginStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/OverallRatingStepDefs.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/PopularMakeStepDefs.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/StepDefinitions/PopularModelStepDefs.java" beforeDir="false" />
@@ -29,9 +43,25 @@
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/RegistrationTest.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/BaseClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/BaseClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/PopularMakePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/PopularMakePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/OverallRatingPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/PopularMakePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/PopularModelPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/ProfilePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/RegistrationPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/StepDefinitions/GoogleStepDefs.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/StepDefinitions/LoginStepDefs.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/StepDefinitions/LoginStepDefs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/StepDefinitions/OverallRatingStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/StepDefinitions/PopularMakeStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/StepDefinitions/PopularModelStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/StepDefinitions/ProfileStepDefs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/StepDefinitions/RegistrationStepDefs.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/TestRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/LoginTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/OverallRating.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/PopularMakeTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/PopularModelTest.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Profile.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/RegistrationTest.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,46 +245,46 @@
     </state>
     <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620826684819" />
     <state x="2296" y="164" key="FileChooserDialogImpl/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620876417227" />
-    <state width="1391" height="242" key="GridCell.Tab.0.bottom" timestamp="1620908277290">
+    <state width="1390" height="242" key="GridCell.Tab.0.bottom" timestamp="1620908742214">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574611" />
-    <state width="1391" height="242" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908277290" />
-    <state width="1391" height="242" key="GridCell.Tab.0.center" timestamp="1620908277290">
+    <state width="1390" height="242" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908742214" />
+    <state width="1390" height="242" key="GridCell.Tab.0.center" timestamp="1620908742214">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.0.center/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574610" />
-    <state width="1391" height="242" key="GridCell.Tab.0.center/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908277290" />
-    <state width="1391" height="242" key="GridCell.Tab.0.left" timestamp="1620908277290">
+    <state width="1390" height="242" key="GridCell.Tab.0.center/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908742214" />
+    <state width="1390" height="242" key="GridCell.Tab.0.left" timestamp="1620908742213">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.0.left/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574610" />
-    <state width="1391" height="242" key="GridCell.Tab.0.left/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908277290" />
-    <state width="1391" height="242" key="GridCell.Tab.0.right" timestamp="1620908277290">
+    <state width="1390" height="242" key="GridCell.Tab.0.left/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908742213" />
+    <state width="1390" height="242" key="GridCell.Tab.0.right" timestamp="1620908742214">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.0.right/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574611" />
-    <state width="1391" height="242" key="GridCell.Tab.0.right/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908277290" />
-    <state width="1391" height="242" key="GridCell.Tab.1.bottom" timestamp="1620908277291">
+    <state width="1390" height="242" key="GridCell.Tab.0.right/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908742214" />
+    <state width="1390" height="242" key="GridCell.Tab.1.bottom" timestamp="1620908742215">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
-    <state width="1391" height="242" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908277291" />
-    <state width="1391" height="242" key="GridCell.Tab.1.center" timestamp="1620908277290">
+    <state width="1390" height="242" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908742215" />
+    <state width="1390" height="242" key="GridCell.Tab.1.center" timestamp="1620908742214">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.1.center/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
-    <state width="1391" height="242" key="GridCell.Tab.1.center/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908277290" />
-    <state width="1391" height="242" key="GridCell.Tab.1.left" timestamp="1620908277290">
+    <state width="1390" height="242" key="GridCell.Tab.1.center/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908742214" />
+    <state width="1390" height="242" key="GridCell.Tab.1.left" timestamp="1620908742214">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.1.left/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
-    <state width="1391" height="242" key="GridCell.Tab.1.left/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908277290" />
-    <state width="1391" height="242" key="GridCell.Tab.1.right" timestamp="1620908277291">
+    <state width="1390" height="242" key="GridCell.Tab.1.left/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908742214" />
+    <state width="1390" height="242" key="GridCell.Tab.1.right" timestamp="1620908742215">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
     <state width="1557" height="229" key="GridCell.Tab.1.right/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
-    <state width="1391" height="242" key="GridCell.Tab.1.right/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908277291" />
+    <state width="1390" height="242" key="GridCell.Tab.1.right/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620908742215" />
     <state x="2090" y="115" key="Maven.ArtifactSearchDialog" timestamp="1620546038655">
       <screen x="1600" y="-60" width="1920" height="1040" />
     </state>
