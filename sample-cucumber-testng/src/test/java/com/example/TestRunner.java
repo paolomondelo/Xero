@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
         },
         features = {"src/test/resources/features"},
         glue = {"com.example.StepDefinitions"},
-        tags = "@smoketest"
+        tags = "@xero"
 )
 
 public class TestRunner extends AbstractTestNGCucumberTests {

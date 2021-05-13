@@ -22,7 +22,7 @@ public class BaseClass {
 
 
     public static void navigateToHome(){
-        driver.get("https://buggy.justtestit.org/");
+        driver.get("https://login.xero.com/identity/user/login/");
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 

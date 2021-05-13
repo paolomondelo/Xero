@@ -10,12 +10,13 @@ public class LoginPage extends BaseClass{
 
 
 
-    public static String txtUsername = "login";
-    public static String txtPassword = "password";
+    public static String txtUsername = "Username";
+    public static String txtPassword = "Password";
     public static String btnSubmit = "button";
     public static String loginStatusField = "span";
     public static String loginStatusFieldFailed = ".label-warning";
     public static String loginHeader="span";
+    public static String notNowButton=".xui-u-flex-align-center > [tabindex='0']:nth-child(5)";
 
 
     public static void enterUsername(String strUsername){
@@ -30,37 +31,12 @@ public class LoginPage extends BaseClass{
         driver.findElement(By.cssSelector (btnSubmit)).click();
     }
 
-    public static void verifyTitle(String title){
-        Assert.assertTrue(driver.getTitle().equals(title));
-    }
-
-    public static void verifyLoginSuccess() {
-        WebElement element = driver.findElement(By.cssSelector (loginStatusField));
-        String strng = element.getText();
-        //System.out.println(strng);
-        Assert.assertEquals("Hi, paolo", strng);
-
-    }
-
-
-    public static void verifyLoginFailed() {
-        WebElement element = driver.findElement(By.cssSelector (loginStatusFieldFailed));
-        String strng = element.getText();
-        //System.out.println(strng);
-        Assert.assertEquals("Invalid username/password", strng);
-    }
-
-    public static void visitRegistration() {
-        driver.get("https://buggy.justtestit.org/register");
-    }
-
-    public static void assertThatRegPageIsNoLongerAccessible() {
-        WebElement element = driver.findElement(By.cssSelector (loginHeader));
-        String strng = element.getText();
-        Assert.assertFalse (strng.contains("Hi, paolo"));
 
 
 
 
+
+    public static void clickNotNow() {
+        driver.findElement(By.cssSelector (notNowButton)).click();
     }
 }

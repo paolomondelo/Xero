@@ -2,7 +2,6 @@ package com.example.StepDefinitions;
 
 import com.example.BaseClass;
 import com.example.LoginPage;
-import com.example.RegistrationPage;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
@@ -44,29 +43,9 @@ public class LoginStepDefs extends BaseClass {
         LoginPage.clickSubmit();
     }
 
-
-    @Then("User is displayed home page")
-    public void userIsDisplayedHomePage() {
-        LoginPage.verifyTitle("Digital Bank");
-    }
-
-    @Then("user is successfully logged in")
-    public void userIsSuccessfullyLoggedIn() {
-        LoginPage.verifyLoginSuccess();
-    }
-
-    @Then("User is denied from logging in")
-    public void userIsDeniedFromLoggingIn() {
-        LoginPage.verifyLoginFailed();
-    }
-
-    @When("user visits the registration site")
-    public void userVisitsTheRegistrationSite() {
-        LoginPage.visitRegistration();
-    }
-
-    @Then("the registration page should no longer be accessible because the user already registered before login")
-    public void theRegistrationPageShouldNoLongerBeAccessibleBecuaseTheUserAlreadyRegisteredPriorLogin() {
-        LoginPage.assertThatRegPageIsNoLongerAccessible();
+    
+    @And("Skips the setup security layer")
+    public void skipsTheSetupSecurityLayer() {
+        LoginPage.clickNotNow();
     }
 }
