@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cef9d388-d2d1-4b93-8355-42771e0269cb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-failures.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-failures.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-features.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-features.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-steps.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-steps.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-tags.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/overview-tags.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_1_2243356541.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_1_2243356541.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_2188852174.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_2188852174.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_2_2769700556.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_2_2769700556.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_3_2877306845.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_3_2877306845.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_4_2217092828.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_4_2217092828.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_5_719196998.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-feature_5_719196998.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1470756296.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1470756296.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1476626479.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1476626479.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1708769640.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_1708769640.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_2015809129.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_2015809129.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_338298432.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_338298432.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_3494217976.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_3494217976.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_3511303174.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_3511303174.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_4090000864.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/html-reports/cucumber-html-reports/report-tag_4090000864.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/PopularMakePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/PopularMakePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber-reports/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Suite/Regression Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test Suite/Regression Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Suite/Regression Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test Suite/Regression Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test Suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.TestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.example.TestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/Test Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/PopularMakeTest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/PopularMakeTest.feature" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1sGh2hc3TJLKuzMRdKSP28KVPTz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example" />
+      <recent name="com.example.StepDefinitions" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mondelop\Desktop\Java Selenium\WestPac4\sample-cucumber-testng\src\test\resources\features" />
+      <recent name="C:\Users\mondelop\Desktop\Java Selenium\WestPac4\sample-cucumber-testng\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Feature: PopularMakeTest">
+    <configuration name="Feature: LoginTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/LoginTest.feature" />
+      <option name="GLUE" value="com.example.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Demo-Project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: LoginTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: OverallRating" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/OverallRating.feature" />
+      <option name="GLUE" value="com.example.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Demo-Project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: OverallRating" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: PopularMakeTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/PopularMakeTest.feature" />
+      <option name="GLUE" value="com.example.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Demo-Project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: PopularMakeTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: PopularModelTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/PopularModelTest.feature" />
+      <option name="GLUE" value="com.example.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Demo-Project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: PopularModelTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: RegistrationTest" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/RegistrationTest.feature" />
+      <option name="GLUE" value="com.example.StepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Demo-Project" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: RegistrationTest" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Cucumber Java.Feature: PopularMakeTest" />
+        <item itemvalue="Cucumber Java.Feature: RegistrationTest" />
+        <item itemvalue="Cucumber Java.Feature: PopularModelTest" />
+        <item itemvalue="Cucumber Java.Feature: OverallRating" />
+        <item itemvalue="Cucumber Java.Feature: LoginTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cef9d388-d2d1-4b93-8355-42771e0269cb" name="Default Changelist" comment="" />
+      <created>1620504633872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1620504633872</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1620507632587">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620507632587" />
+    <state x="2290" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620613427142">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state x="2290" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620613427142" />
+    <state x="2296" y="164" key="FileChooserDialogImpl" timestamp="1620876417227">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state x="580" y="185" key="FileChooserDialogImpl/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620826684819" />
+    <state x="2296" y="164" key="FileChooserDialogImpl/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620876417227" />
+    <state width="938" height="242" key="GridCell.Tab.0.bottom" timestamp="1620896261360">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="229" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574611" />
+    <state width="938" height="242" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620896261360" />
+    <state width="938" height="242" key="GridCell.Tab.0.center" timestamp="1620896261360">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="229" key="GridCell.Tab.0.center/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574610" />
+    <state width="938" height="242" key="GridCell.Tab.0.center/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620896261360" />
+    <state width="938" height="242" key="GridCell.Tab.0.left" timestamp="1620896261359">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="229" key="GridCell.Tab.0.left/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574610" />
+    <state width="938" height="242" key="GridCell.Tab.0.left/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620896261359" />
+    <state width="938" height="242" key="GridCell.Tab.0.right" timestamp="1620896261360">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="229" key="GridCell.Tab.0.right/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574611" />
+    <state width="938" height="242" key="GridCell.Tab.0.right/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620896261360" />
+    <state width="938" height="242" key="GridCell.Tab.1.bottom" timestamp="1620896261361">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="229" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
+    <state width="938" height="242" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620896261361" />
+    <state width="938" height="242" key="GridCell.Tab.1.center" timestamp="1620896261361">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="229" key="GridCell.Tab.1.center/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
+    <state width="938" height="242" key="GridCell.Tab.1.center/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620896261361" />
+    <state width="938" height="242" key="GridCell.Tab.1.left" timestamp="1620896261361">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="229" key="GridCell.Tab.1.left/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
+    <state width="938" height="242" key="GridCell.Tab.1.left/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620896261361" />
+    <state width="938" height="242" key="GridCell.Tab.1.right" timestamp="1620896261361">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state width="1557" height="229" key="GridCell.Tab.1.right/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620777574252" />
+    <state width="938" height="242" key="GridCell.Tab.1.right/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620896261361" />
+    <state x="2090" y="115" key="Maven.ArtifactSearchDialog" timestamp="1620546038655">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state x="2090" y="115" key="Maven.ArtifactSearchDialog/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620546038655" />
+    <state x="2028" y="94" key="SettingsEditor" timestamp="1620795163689">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state x="2028" y="94" key="SettingsEditor/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620795163689" />
+    <state x="2040" y="132" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1620795355662">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state x="367" y="159" width="865" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620718693487" />
+    <state x="2040" y="132" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620795355662" />
+    <state x="507" y="29" width="585" height="801" key="find.popup" timestamp="1620504935052">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="507" y="29" width="585" height="801" key="find.popup/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620504935052" />
+    <state x="586" y="365" width="514" height="155" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog" timestamp="1620773152962">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="586" y="365" width="514" height="155" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1600.860/1600.-60.1920.1040@0.0.1600.860" timestamp="1620773152962" />
+    <state x="2303" y="381" width="550" height="157" key="org.jetbrains.plugins.cucumber.inspections.ui.CreateStepDefinitionFileDialog/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620613086790" />
+    <state x="2183" y="228" key="run.anything.popup" timestamp="1620873426052">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state x="2183" y="228" key="run.anything.popup/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620873426052" />
+    <state x="2223" y="165" width="672" height="678" key="search.everywhere.popup" timestamp="1620604827892">
+      <screen x="1600" y="-60" width="1920" height="1040" />
+    </state>
+    <state x="2223" y="165" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.-60.1920.1040@1600.-60.1920.1040" timestamp="1620604827892" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Demo_Project$Scenario__blah_blah.ic" NAME="Scenario: blah blah Coverage Results" MODIFIED="1620566959465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Demo_Project$Scenario__Validate_that_the_user_can_visit_the_Popular_Make_Page.ic" NAME="Scenario: Validate that the user can visit the Popular Make Page Coverage Results" MODIFIED="1620574148653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>io.cucumber.core.cli.*</FILTER>
+    </SUITE>
+  </component>
+</project>

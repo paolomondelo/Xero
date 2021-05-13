@@ -1,0 +1,8 @@
+com\example\StepDefinitions\GoogleStepDefs.class
+com\example\StepDefinitions\ProfileStepDefs.class
+com\example\StepDefinitions\OverallRatingStepDefs.class
+com\example\StepDefinitions\PopularMakeStepDefs.class
+com\example\StepDefinitions\LoginStepDefs.class
+com\example\TestRunner.class
+com\example\StepDefinitions\PopularModelStepDefs.class
+com\example\StepDefinitions\RegistrationStepDefs.class

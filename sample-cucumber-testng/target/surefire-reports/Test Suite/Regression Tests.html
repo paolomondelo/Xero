@@ -1,0 +1,244 @@
+<html>
+<head>
+<title>TestNG:  Regression Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Regression Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>33/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 13 20:47:06 NZST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>475 seconds (475755 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to application using valid credentials", "Optional[Login Test]"</td>
+<td></td>
+<td>12</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login to application using invalid credentials", "Optional[Login Test]"</td>
+<td></td>
+<td>12</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can visit the Overall Rating Page", "Optional[Overall Rating Test]"</td>
+<td></td>
+<td>17</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can vote and comment", "Optional[Overall Rating Test]"</td>
+<td></td>
+<td>20</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the pagination for overall rating page is working", "Optional[Overall Rating Test]"</td>
+<td></td>
+<td>12</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can visit the Popular Make Page", "Optional[Popular Make Test]"</td>
+<td></td>
+<td>11</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can vote and comment", "Optional[Popular Make Test]"</td>
+<td></td>
+<td>15</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the Model Column is present", "Optional[Popular Make Test]"</td>
+<td></td>
+<td>12</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the Model Column is populated", "Optional[Popular Make Test]"</td>
+<td></td>
+<td>15</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the Rank Column is present", "Optional[Popular Make Test]"</td>
+<td></td>
+<td>11</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the Rank Value is populated", "Optional[Popular Make Test]"</td>
+<td></td>
+<td>12</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the page pagination is working", "Optional[Popular Make Test]"</td>
+<td></td>
+<td>15</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can visit the Popular Model Page", "Optional[Popular Model Test]"</td>
+<td></td>
+<td>11</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can vote and comment while inside  the Popular Model Page", "Optional[Popular Model Test]"</td>
+<td></td>
+<td>13</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the Model Column is present while inside  the Popular Model Page", "Optional[Popular Model Test]"</td>
+<td></td>
+<td>10</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the Model Column is populated while inside  the Popular Model Page", "Optional[Popular Model Test]"</td>
+<td></td>
+<td>10</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the Rank Column is present while inside  the Popular Model Page", "Optional[Popular Model Test]"</td>
+<td></td>
+<td>10</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the number of votes is populated while inside the Popular Model Page", "Optional[Popular Model Test]"</td>
+<td></td>
+<td>14</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can successfully change new password", "Optional[Profile Test]"</td>
+<td></td>
+<td>16</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can visit the Profile Page", "Optional[Profile Test]"</td>
+<td></td>
+<td>14</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can successfully change first name and last name", "Optional[Profile Test]"</td>
+<td></td>
+<td>15</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can successfully change Gender, Age, Address, and Phone", "Optional[Profile Test]"</td>
+<td></td>
+<td>15</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers", "Optional[Profile Test]"</td>
+<td></td>
+<td>13</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers", "Optional[Profile Test]"</td>
+<td></td>
+<td>13</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers", "Optional[Profile Test]"</td>
+<td></td>
+<td>15</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers", "Optional[Profile Test]"</td>
+<td></td>
+<td>16</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point", "Optional[Profile Test]"</td>
+<td></td>
+<td>14</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point", "Optional[Profile Test]"</td>
+<td></td>
+<td>16</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point", "Optional[Profile Test]"</td>
+<td></td>
+<td>15</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point", "Optional[Profile Test]"</td>
+<td></td>
+<td>17</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that app should throw an  error message stating that the new password used must have a combination of alphanumeric and must have lowercase andmust have a nonascii character", "Optional[Profile Test]"</td>
+<td></td>
+<td>14</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user cannot register using invalid password format", "Optional[Registration Test]"</td>
+<td></td>
+<td>10</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+<tr>
+<td title='com.example.TestRunner.runScenario()'><b>runScenario</b><br>Test class: com.example.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate that the user can register using valid password format", "Optional[Registration Test]"</td>
+<td></td>
+<td>13</td>
+<td>com.example.TestRunner@5552768b</td></tr>
+</table><p>
+</body>
+</html>

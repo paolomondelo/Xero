@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Test_Suite" class="navigator-link ">
+                    <span>C:\Users\mondelop\Desktop\Buggy Cars Westpac Exercise\Westpac_Buggycars\sample-cucumber-testng\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Test_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">33 methods,   33 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Test_Suite" class="hide-methods passed suite-Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Test_Suite -->
+                      <a href="#" panel-name="suite-Test_Suite" class="show-methods passed suite-Test_Suite"> (show)</a> <!-- show-methods passed suite-Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the Model Column is populated&quot;, &quot;Optional[Popular Make Test]&quot;)">runScenario("Validate that the Model Column is populated", "Optional[Popular Make Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the pagination for overall rating page is working&quot;, &quot;Optional[Overall Rating Test]&quot;)">runScenario("Validate that the pagination for overall rating page is working", "Optional[Overall Rating Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the Model Column is populated while inside  the Popular Model Page&quot;, &quot;Optional[Popula...)">runScenario("Validate that the Model Column is populated while inside  the Popular Model Page", "Optional[Popula...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can successfully change first name and last name&quot;, &quot;Optional[Profile Test]&quot;)">runScenario("Validate that the user can successfully change first name and last name", "Optional[Profile Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login to application using valid credentials&quot;, &quot;Optional[Login Test]&quot;)">runScenario("Login to application using valid credentials", "Optional[Login Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the Rank Column is present&quot;, &quot;Optional[Popular Make Test]&quot;)">runScenario("Validate that the Rank Column is present", "Optional[Popular Make Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can visit the Profile Page&quot;, &quot;Optional[Profile Test]&quot;)">runScenario("Validate that the user can visit the Profile Page", "Optional[Profile Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can vote and comment while inside  the Popular Model Page&quot;, &quot;Optional[Popula...)">runScenario("Validate that the user can vote and comment while inside  the Popular Model Page", "Optional[Popula...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can successfully change new password&quot;, &quot;Optional[Profile Test]&quot;)">runScenario("Validate that the user can successfully change new password", "Optional[Profile Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the Rank Column is present while inside  the Popular Model Page&quot;, &quot;Optional[Popular M...)">runScenario("Validate that the Rank Column is present while inside  the Popular Model Page", "Optional[Popular M...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the Model Column is present&quot;, &quot;Optional[Popular Make Test]&quot;)">runScenario("Validate that the Model Column is present", "Optional[Popular Make Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can successfully change Gender, Age, Address, and Phone&quot;, &quot;Optional[Profile ...)">runScenario("Validate that the user can successfully change Gender, Age, Address, and Phone", "Optional[Profile ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can vote and comment&quot;, &quot;Optional[Overall Rating Test]&quot;)">runScenario("Validate that the user can vote and comment", "Optional[Overall Rating Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user cannot register using invalid password format&quot;, &quot;Optional[Registration Test]...)">runScenario("Validate that the user cannot register using invalid password format", "Optional[Registration Test]...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that app should throw an  error message stating that the new password used must have a com...)">runScenario("Validate that app should throw an  error message stating that the new password used must have a com...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can visit the Popular Make Page&quot;, &quot;Optional[Popular Make Test]&quot;)">runScenario("Validate that the user can visit the Popular Make Page", "Optional[Popular Make Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the number of votes is populated while inside the Popular Model Page&quot;, &quot;Optional[Popu...)">runScenario("Validate that the number of votes is populated while inside the Popular Model Page", "Optional[Popu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the page pagination is working&quot;, &quot;Optional[Popular Make Test]&quot;)">runScenario("Validate that the page pagination is working", "Optional[Popular Make Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can vote and comment&quot;, &quot;Optional[Popular Make Test]&quot;)">runScenario("Validate that the user can vote and comment", "Optional[Popular Make Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Login to application using invalid credentials&quot;, &quot;Optional[Login Test]&quot;)">runScenario("Login to application using invalid credentials", "Optional[Login Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can visit the Overall Rating Page&quot;, &quot;Optional[Overall Rating Test]&quot;)">runScenario("Validate that the user can visit the Overall Rating Page", "Optional[Overall Rating Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the Rank Value is populated&quot;, &quot;Optional[Popular Make Test]&quot;)">runScenario("Validate that the Rank Value is populated", "Optional[Popular Make Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can visit the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;)">runScenario("Validate that the user can visit the Popular Model Page", "Optional[Popular Model Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the Model Column is present while inside  the Popular Model Page&quot;, &quot;Optional[Popular ...)">runScenario("Validate that the Model Column is present while inside  the Popular Model Page", "Optional[Popular ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Test_Suite" title="com.example.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Validate that the user can register using valid password format&quot;, &quot;Optional[Registration Test]&quot;)">runScenario("Validate that the user can register using valid password format", "Optional[Registration Test]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Test_Suite" class="panel Test_Suite">
+          <div class="suite-Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.example.TestRunner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the Model Column is populated&quot;, &quot;Optional[Popular Make Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the Model Column is populated", "Optional[Popular Make Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the Model Column is populated", "Optional[Popular Make Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the pagination for overall rating page is working&quot;, &quot;Optional[Overall Rating Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the pagination for overall rating page is working", "Optional[Overall Rating Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the pagination for overall rating page is working", "Optional[Overall Rating Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">
+                  </a> <!-- runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the Model Column is populated while inside  the Popular Model Page&quot;, &quot;Optional[Popula...)">
+                  </a> <!-- runScenario("Validate that the Model Column is populated while inside  the Popular Model Page", "Optional[Popula...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the Model Column is populated while inside  the Popular Model Page", "Optional[Popular Model Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can successfully change first name and last name&quot;, &quot;Optional[Profile Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the user can successfully change first name and last name", "Optional[Profile Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can successfully change first name and last name", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login to application using valid credentials&quot;, &quot;Optional[Login Test]&quot;)">
+                  </a> <!-- runScenario("Login to application using valid credentials", "Optional[Login Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login to application using valid credentials", "Optional[Login Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the Rank Column is present&quot;, &quot;Optional[Popular Make Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the Rank Column is present", "Optional[Popular Make Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the Rank Column is present", "Optional[Popular Make Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">
+                  </a> <!-- runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can visit the Profile Page&quot;, &quot;Optional[Profile Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the user can visit the Profile Page", "Optional[Profile Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can visit the Profile Page", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can vote and comment while inside  the Popular Model Page&quot;, &quot;Optional[Popula...)">
+                  </a> <!-- runScenario("Validate that the user can vote and comment while inside  the Popular Model Page", "Optional[Popula...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can vote and comment while inside  the Popular Model Page", "Optional[Popular Model Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can successfully change new password&quot;, &quot;Optional[Profile Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the user can successfully change new password", "Optional[Profile Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can successfully change new password", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the Rank Column is present while inside  the Popular Model Page&quot;, &quot;Optional[Popular M...)">
+                  </a> <!-- runScenario("Validate that the Rank Column is present while inside  the Popular Model Page", "Optional[Popular M...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the Rank Column is present while inside  the Popular Model Page", "Optional[Popular Model Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the Model Column is present&quot;, &quot;Optional[Popular Make Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the Model Column is present", "Optional[Popular Make Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the Model Column is present", "Optional[Popular Make Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can successfully change Gender, Age, Address, and Phone&quot;, &quot;Optional[Profile ...)">
+                  </a> <!-- runScenario("Validate that the user can successfully change Gender, Age, Address, and Phone", "Optional[Profile ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can successfully change Gender, Age, Address, and Phone", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can vote and comment&quot;, &quot;Optional[Overall Rating Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the user can vote and comment", "Optional[Overall Rating Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can vote and comment", "Optional[Overall Rating Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">
+                  </a> <!-- runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user cannot register using invalid password format&quot;, &quot;Optional[Registration Test]...)">
+                  </a> <!-- runScenario("Validate that the user cannot register using invalid password format", "Optional[Registration Test]...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user cannot register using invalid password format", "Optional[Registration Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that app should throw an  error message stating that the new password used must have a com...)">
+                  </a> <!-- runScenario("Validate that app should throw an  error message stating that the new password used must have a com...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that app should throw an  error message stating that the new password used must have a combination of alphanumeric and must have lowercase andmust have a nonascii character", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">
+                  </a> <!-- runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can visit the Popular Make Page&quot;, &quot;Optional[Popular Make Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the user can visit the Popular Make Page", "Optional[Popular Make Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can visit the Popular Make Page", "Optional[Popular Make Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the number of votes is populated while inside the Popular Model Page&quot;, &quot;Optional[Popu...)">
+                  </a> <!-- runScenario("Validate that the number of votes is populated while inside the Popular Model Page", "Optional[Popu...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the number of votes is populated while inside the Popular Model Page", "Optional[Popular Model Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the page pagination is working&quot;, &quot;Optional[Popular Make Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the page pagination is working", "Optional[Popular Make Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the page pagination is working", "Optional[Popular Make Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">
+                  </a> <!-- runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can vote and comment&quot;, &quot;Optional[Popular Make Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the user can vote and comment", "Optional[Popular Make Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can vote and comment", "Optional[Popular Make Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Login to application using invalid credentials&quot;, &quot;Optional[Login Test]&quot;)">
+                  </a> <!-- runScenario("Login to application using invalid credentials", "Optional[Login Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Login to application using invalid credentials", "Optional[Login Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">
+                  </a> <!-- runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">
+                  </a> <!-- runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)">
+                  </a> <!-- runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point", "Optional[Profile Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can visit the Overall Rating Page&quot;, &quot;Optional[Overall Rating Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the user can visit the Overall Rating Page", "Optional[Overall Rating Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can visit the Overall Rating Page", "Optional[Overall Rating Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the Rank Value is populated&quot;, &quot;Optional[Popular Make Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the Rank Value is populated", "Optional[Popular Make Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the Rank Value is populated", "Optional[Popular Make Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can visit the Popular Model Page&quot;, &quot;Optional[Popular Model Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the user can visit the Popular Model Page", "Optional[Popular Model Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can visit the Popular Model Page", "Optional[Popular Model Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the Model Column is present while inside  the Popular Model Page&quot;, &quot;Optional[Popular ...)">
+                  </a> <!-- runScenario("Validate that the Model Column is present while inside  the Popular Model Page", "Optional[Popular ...) -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the Model Column is present while inside  the Popular Model Page", "Optional[Popular Model Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Validate that the user can register using valid password format&quot;, &quot;Optional[Registration Test]&quot;)">
+                  </a> <!-- runScenario("Validate that the user can register using valid password format", "Optional[Registration Test]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Validate that the user can register using valid password format", "Optional[Registration Test]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Test_Suite-class-passed -->
+        </div> <!-- panel Test_Suite -->
+        <div panel-name="test-xml-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\mondelop\Desktop\Buggy Cars Westpac Exercise\Westpac_Buggycars\sample-cucumber-testng\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.example.TestRunner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Tests --&gt;
+&lt;/suite&gt; &lt;!-- Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Test_Suite');
+function tableData_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(33);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'com.example.TestRunner')
+data.setCell(0, 3, 20914);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'com.example.TestRunner')
+data.setCell(1, 3, 17947);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'com.example.TestRunner')
+data.setCell(2, 3, 17136);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'com.example.TestRunner')
+data.setCell(3, 3, 16697);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'com.example.TestRunner')
+data.setCell(4, 3, 16688);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'com.example.TestRunner')
+data.setCell(5, 3, 16130);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'runScenario')
+data.setCell(6, 2, 'com.example.TestRunner')
+data.setCell(6, 3, 15939);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'runScenario')
+data.setCell(7, 2, 'com.example.TestRunner')
+data.setCell(7, 3, 15869);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'runScenario')
+data.setCell(8, 2, 'com.example.TestRunner')
+data.setCell(8, 3, 15816);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'runScenario')
+data.setCell(9, 2, 'com.example.TestRunner')
+data.setCell(9, 3, 15804);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'runScenario')
+data.setCell(10, 2, 'com.example.TestRunner')
+data.setCell(10, 3, 15691);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'runScenario')
+data.setCell(11, 2, 'com.example.TestRunner')
+data.setCell(11, 3, 15155);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'runScenario')
+data.setCell(12, 2, 'com.example.TestRunner')
+data.setCell(12, 3, 15065);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'runScenario')
+data.setCell(13, 2, 'com.example.TestRunner')
+data.setCell(13, 3, 14982);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'runScenario')
+data.setCell(14, 2, 'com.example.TestRunner')
+data.setCell(14, 3, 14949);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'runScenario')
+data.setCell(15, 2, 'com.example.TestRunner')
+data.setCell(15, 3, 14480);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'runScenario')
+data.setCell(16, 2, 'com.example.TestRunner')
+data.setCell(16, 3, 14162);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'runScenario')
+data.setCell(17, 2, 'com.example.TestRunner')
+data.setCell(17, 3, 13918);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'runScenario')
+data.setCell(18, 2, 'com.example.TestRunner')
+data.setCell(18, 3, 13679);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'runScenario')
+data.setCell(19, 2, 'com.example.TestRunner')
+data.setCell(19, 3, 13489);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'runScenario')
+data.setCell(20, 2, 'com.example.TestRunner')
+data.setCell(20, 3, 13359);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'runScenario')
+data.setCell(21, 2, 'com.example.TestRunner')
+data.setCell(21, 3, 12807);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'runScenario')
+data.setCell(22, 2, 'com.example.TestRunner')
+data.setCell(22, 3, 12463);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'runScenario')
+data.setCell(23, 2, 'com.example.TestRunner')
+data.setCell(23, 3, 12265);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'runScenario')
+data.setCell(24, 2, 'com.example.TestRunner')
+data.setCell(24, 3, 12196);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'runScenario')
+data.setCell(25, 2, 'com.example.TestRunner')
+data.setCell(25, 3, 12084);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'runScenario')
+data.setCell(26, 2, 'com.example.TestRunner')
+data.setCell(26, 3, 11538);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'runScenario')
+data.setCell(27, 2, 'com.example.TestRunner')
+data.setCell(27, 3, 11417);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'runScenario')
+data.setCell(28, 2, 'com.example.TestRunner')
+data.setCell(28, 3, 11382);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'runScenario')
+data.setCell(29, 2, 'com.example.TestRunner')
+data.setCell(29, 3, 10629);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'runScenario')
+data.setCell(30, 2, 'com.example.TestRunner')
+data.setCell(30, 3, 10507);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'runScenario')
+data.setCell(31, 2, 'com.example.TestRunner')
+data.setCell(31, 3, 10417);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'runScenario')
+data.setCell(32, 2, 'com.example.TestRunner')
+data.setCell(32, 3, 10279);
+window.suiteTableData['Test_Suite']= { tableData: data, tableDiv: 'times-div-Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 minutes</span>
+              <div id="times-div-Test_Suite">
+              </div> <!-- times-div-Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.example.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login to application using valid credentials", "Optional[Login Test]")</span>
+                <span class="method-start">2144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Login to application using invalid credentials", "Optional[Login Test]")</span>
+                <span class="method-start">14234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can visit the Overall Rating Page", "Optional[Overall Rating Test]")</span>
+                <span class="method-start">26504 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can vote and comment", "Optional[Overall Rating Test]")</span>
+                <span class="method-start">44452 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the pagination for overall rating page is working", "Optional[Overall Rating Test]")</span>
+                <span class="method-start">65368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can visit the Popular Make Page", "Optional[Popular Make Test]")</span>
+                <span class="method-start">77571 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can vote and comment", "Optional[Popular Make Test]")</span>
+                <span class="method-start">88959 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the Model Column is present", "Optional[Popular Make Test]")</span>
+                <span class="method-start">104764 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the Model Column is populated", "Optional[Popular Make Test]")</span>
+                <span class="method-start">117228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the Rank Column is present", "Optional[Popular Make Test]")</span>
+                <span class="method-start">132294 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the Rank Value is populated", "Optional[Popular Make Test]")</span>
+                <span class="method-start">143833 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the page pagination is working", "Optional[Popular Make Test]")</span>
+                <span class="method-start">156641 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can visit the Popular Model Page", "Optional[Popular Model Test]")</span>
+                <span class="method-start">172460 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can vote and comment while inside  the Popular Model Page", "Optional[Popula...)</span>
+                <span class="method-start">183878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the Model Column is present while inside  the Popular Model Page", "Optional[Popular ...)</span>
+                <span class="method-start">197368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the Model Column is populated while inside  the Popular Model Page", "Optional[Popula...)</span>
+                <span class="method-start">207878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the Rank Column is present while inside  the Popular Model Page", "Optional[Popular M...)</span>
+                <span class="method-start">218508 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the number of votes is populated while inside the Popular Model Page", "Optional[Popu...)</span>
+                <span class="method-start">228926 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can successfully change new password", "Optional[Profile Test]")</span>
+                <span class="method-start">243909 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can visit the Profile Page", "Optional[Profile Test]")</span>
+                <span class="method-start">260597 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can successfully change first name and last name", "Optional[Profile Test]")</span>
+                <span class="method-start">274760 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can successfully change Gender, Age, Address, and Phone", "Optional[Profile ...)</span>
+                <span class="method-start">290702 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</span>
+                <span class="method-start">306393 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</span>
+                <span class="method-start">320073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</span>
+                <span class="method-start">333433 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</span>
+                <span class="method-start">349303 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</span>
+                <span class="method-start">365438 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</span>
+                <span class="method-start">380388 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</span>
+                <span class="method-start">397086 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that app should not accept any updates with age less than 0 or age greater than 96 and tha...)</span>
+                <span class="method-start">412242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that app should throw an  error message stating that the new password used must have a com...)</span>
+                <span class="method-start">429379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user cannot register using invalid password format", "Optional[Registration Test]...)</span>
+                <span class="method-start">443860 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Validate that the user can register using valid password format", "Optional[Registration Test]")</span>
+                <span class="method-start">454140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">468060 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
