@@ -1,548 +1,100 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-05-13T20:47:06 NZST" name="Test Suite" finished-at="2021-05-13T20:55:02 NZST" duration-ms="475755">
+  <suite started-at="2021-05-14T00:33:49 NZST" name="Test Suite" finished-at="2021-05-14T00:36:07 NZST" duration-ms="138303">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@69fb6037]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2021-05-13T20:47:06 NZST" name="Regression Tests" finished-at="2021-05-13T20:55:02 NZST" duration-ms="475755">
+    <test started-at="2021-05-14T00:33:49 NZST" name="Regression Tests" finished-at="2021-05-14T00:36:07 NZST" duration-ms="138303">
       <class name="com.example.TestRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:47:06 NZST" name="setUpClass" finished-at="2021-05-13T20:47:08 NZST" duration-ms="2105" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.example.TestRunner@69fb6037]" started-at="2021-05-14T00:33:49 NZST" name="setUpClass" finished-at="2021-05-14T00:33:51 NZST" duration-ms="1843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:47:08 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:47:20 NZST" duration-ms="12084" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@69fb6037]" started-at="2021-05-14T00:33:51 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-14T00:34:21 NZST" duration-ms="29893" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Login to application using valid credentials"]]>
+                <![CDATA["Validate that a Xero user can add an ANZ NZ Bank Account to a Xero Organization(account type = Everyday Day to Day)"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Login Test]"]]>
+                <![CDATA["Optional.empty"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:47:20 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:47:32 NZST" duration-ms="12265" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@69fb6037]" started-at="2021-05-14T00:34:21 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-14T00:34:47 NZST" duration-ms="25742" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Login to application using invalid credentials"]]>
+                <![CDATA["Validate that a Xero user can add an ANZ NZ Bank Account to a Xero Organization(account type = Loan)"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Login Test]"]]>
+                <![CDATA["Optional.empty"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:47:33 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:47:50 NZST" duration-ms="17947" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@69fb6037]" started-at="2021-05-14T00:34:47 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-14T00:35:11 NZST" duration-ms="24334" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate that the user can visit the Overall Rating Page"]]>
+                <![CDATA["Validate that a Xero user can add an ANZ NZ Bank Account to a Xero Organization(account type = Term Deposit)"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Overall Rating Test]"]]>
+                <![CDATA["Optional.empty"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:47:50 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:48:11 NZST" duration-ms="20914" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@69fb6037]" started-at="2021-05-14T00:35:11 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-14T00:35:37 NZST" duration-ms="25625" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate that the user can vote and comment"]]>
+                <![CDATA["Validate that a Xero user can add an ANZ NZ Bank Account to a Xero Organization(account type = Other)"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Overall Rating Test]"]]>
+                <![CDATA["Optional.empty"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:48:11 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:48:24 NZST" duration-ms="12196" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@69fb6037]" started-at="2021-05-14T00:35:37 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-14T00:36:03 NZST" duration-ms="26000" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Validate that the pagination for overall rating page is working"]]>
+                <![CDATA["Validate that a Xero user can add an ANZ NZ Bank Account to a Xero Organization(account type = Credit Card)"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Optional[Overall Rating Test]"]]>
+                <![CDATA["Optional.empty"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:48:24 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:48:35 NZST" duration-ms="11382" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the user can visit the Popular Make Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Make Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:48:35 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:48:51 NZST" duration-ms="15804" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the user can vote and comment"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Make Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:48:51 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:49:03 NZST" duration-ms="12463" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the Model Column is present"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Make Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:49:03 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:49:18 NZST" duration-ms="15065" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the Model Column is populated"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Make Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:49:18 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:49:30 NZST" duration-ms="11538" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the Rank Column is present"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Make Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:49:30 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:49:43 NZST" duration-ms="12807" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the Rank Value is populated"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Make Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:49:43 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:49:58 NZST" duration-ms="15816" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the page pagination is working"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Make Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:49:58 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:50:10 NZST" duration-ms="11417" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the user can visit the Popular Model Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Model Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:50:10 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:50:23 NZST" duration-ms="13489" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the user can vote and comment while inside  the Popular Model Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Model Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:50:23 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:50:34 NZST" duration-ms="10507" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the Model Column is present while inside  the Popular Model Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Model Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:50:34 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:50:45 NZST" duration-ms="10629" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the Model Column is populated while inside  the Popular Model Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Model Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:50:45 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:50:55 NZST" duration-ms="10417" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the Rank Column is present while inside  the Popular Model Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Model Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:50:55 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:51:10 NZST" duration-ms="14982" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the number of votes is populated while inside the Popular Model Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Popular Model Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:51:10 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:51:27 NZST" duration-ms="16688" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the user can successfully change new password"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:51:27 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:51:41 NZST" duration-ms="14162" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the user can visit the Profile Page"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:51:41 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:51:57 NZST" duration-ms="15939" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the user can successfully change first name and last name"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:51:57 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:52:12 NZST" duration-ms="15691" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the user can successfully change Gender, Age, Address, and Phone"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:52:12 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:52:26 NZST" duration-ms="13679" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:52:26 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:52:39 NZST" duration-ms="13359" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:52:39 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:52:55 NZST" duration-ms="15869" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:52:55 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:53:11 NZST" duration-ms="16130" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that app should not accept any updates with age less than 0 or age greater than 96 and that are whole numbers"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:53:11 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:53:26 NZST" duration-ms="14949" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:53:26 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:53:43 NZST" duration-ms="16697" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:53:43 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:53:58 NZST" duration-ms="15155" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:53:58 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:54:15 NZST" duration-ms="17136" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that app should not accept any updates with age less than 0 or age greater than 96 and that contains a decimal point"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:54:15 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:54:30 NZST" duration-ms="14480" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that app should throw an  error message stating that the new password used must have a combination of alphanumeric and must have lowercase andmust have a nonascii character"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Profile Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:54:30 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:54:40 NZST" duration-ms="10279" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the user cannot register using invalid password format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Registration Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:54:40 NZST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-05-13T20:54:54 NZST" duration-ms="13918" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Validate that the user can register using valid password format"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Registration Test]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.TestRunner@5552768b]" started-at="2021-05-13T20:54:54 NZST" name="tearDownClass" finished-at="2021-05-13T20:55:02 NZST" duration-ms="7672" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.example.TestRunner@69fb6037]" started-at="2021-05-14T00:36:03 NZST" name="tearDownClass" finished-at="2021-05-14T00:36:07 NZST" duration-ms="4813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
